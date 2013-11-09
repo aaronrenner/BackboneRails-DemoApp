@@ -12,6 +12,7 @@
       Backbone.history.start()
 
   App.addInitializer ->
+    App.module("HeaderApp").start()
     App.module("FooterApp").start()
 
   App
