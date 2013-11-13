@@ -4,5 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def index
+    gon.push environment: Rails.env, current_user: UserSerializer.new(User.first.decorate)
   end
 end

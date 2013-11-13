@@ -18,6 +18,10 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'eco'
 gem 'bourbon'
 gem 'bootstrap-sass-rails'
+gem 'active_model_serializers'
+gem 'draper'
+gem 'gon'
+gem 'js-routes'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby

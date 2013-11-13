@@ -10,11 +10,14 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//
 //= require jquery
 //= require underscore
 //= require backbone
 //= require backbone.marionette
+//= require js-routes
 //= require_tree ./backbone/config
 //= require backbone/app
 //= require_tree ./backbone/entities
+//= require_tree ./backbone/views
 //= require_tree ./backbone/apps
